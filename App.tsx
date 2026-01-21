@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import Layout from './components/Layout.tsx';
-import Scanner from './components/Scanner.tsx';
-import AnalysisResult from './components/AnalysisResult.tsx';
-import Dashboard from './components/Dashboard.tsx';
-import HistoryView from './components/HistoryView.tsx';
-import ProfileSettings from './components/ProfileSettings.tsx';
-import { analyzeFoodImage } from './services/geminiService.ts';
+import Layout from './Layout.tsx';
+import Scanner from './Scanner.tsx';
+import AnalysisResult from './AnalysisResult.tsx';
+import Dashboard from './Dashboard.tsx';
+import HistoryView from './HistoryView.tsx';
+import ProfileSettings from './ProfileSettings.tsx';
+import { analyzeFoodImage } from './geminiService.ts';
 import { AppState, FoodItem, DailyLog, UserProfile } from './types.ts';
 
 const DEFAULT_PROFILE: UserProfile = {
